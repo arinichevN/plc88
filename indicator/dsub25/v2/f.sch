@@ -1,0 +1,718 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:DB25_Male J1
+U 1 1 6363B9DD
+P 2525 3575
+F 0 "J1" H 2500 2200 50  0000 L CNN
+F 1 "DB25" H 2705 3530 50  0001 L CNN
+F 2 "plc88:dsub25_edge" H 2525 3575 50  0001 C CNN
+F 3 " ~" H 2525 3575 50  0001 C CNN
+	1    2525 3575
+	-1   0    0    1   
+$EndComp
+Text GLabel 2825 2375 2    50   UnSpc ~ 0
+VM0_7
+Text GLabel 2825 2575 2    50   UnSpc ~ 0
+VP0_7
+Text GLabel 2825 2775 2    50   UnSpc ~ 0
+L0
+Text GLabel 2825 2875 2    50   UnSpc ~ 0
+L1
+Text GLabel 2825 2975 2    50   UnSpc ~ 0
+L2
+Text GLabel 2825 3075 2    50   UnSpc ~ 0
+L3
+Text GLabel 2825 3175 2    50   UnSpc ~ 0
+L4
+Text GLabel 2825 3275 2    50   UnSpc ~ 0
+L5
+Text GLabel 2825 3375 2    50   UnSpc ~ 0
+L6
+Text GLabel 2825 3475 2    50   UnSpc ~ 0
+L7
+Text GLabel 2825 3575 2    50   UnSpc ~ 0
+L8
+Text GLabel 2825 3675 2    50   UnSpc ~ 0
+L9
+Text GLabel 2825 3775 2    50   UnSpc ~ 0
+L10
+Text GLabel 2825 3875 2    50   UnSpc ~ 0
+L11
+Text GLabel 2825 3975 2    50   UnSpc ~ 0
+L12
+Text GLabel 2825 4075 2    50   UnSpc ~ 0
+L13
+Text GLabel 2825 4175 2    50   UnSpc ~ 0
+L14
+Text GLabel 2825 4275 2    50   UnSpc ~ 0
+L15
+$Comp
+L Device:LED D1
+U 1 1 6395CC5D
+P 5175 2925
+F 0 "D1" H 5175 2725 50  0000 C CNN
+F 1 "0" H 5168 2761 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 5175 2925 50  0001 C CNN
+F 3 "~" H 5175 2925 50  0001 C CNN
+F 4 "red" H 5175 2925 50  0001 C CNN "color"
+	1    5175 2925
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 6395D25E
+P 4675 2925
+F 0 "R1" V 4468 2925 50  0000 C CNN
+F 1 "16k" V 4559 2925 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4605 2925 50  0001 C CNN
+F 3 "~" H 4675 2925 50  0001 C CNN
+	1    4675 2925
+	0    1    1    0   
+$EndComp
+Text GLabel 4375 2925 0    50   UnSpc ~ 0
+L0
+Wire Wire Line
+	4825 2925 5025 2925
+Wire Wire Line
+	5325 2925 5575 2925
+$Comp
+L Device:R R3
+U 1 1 63978FD4
+P 4675 3150
+F 0 "R3" V 4468 3150 50  0001 C CNN
+F 1 "16k" V 4559 3150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4605 3150 50  0001 C CNN
+F 3 "~" H 4675 3150 50  0001 C CNN
+	1    4675 3150
+	0    1    1    0   
+$EndComp
+Text GLabel 4375 3150 0    50   UnSpc ~ 0
+L1
+Wire Wire Line
+	4825 3150 5025 3150
+Wire Wire Line
+	5325 3150 5575 3150
+$Comp
+L Device:R R5
+U 1 1 6397DD96
+P 4675 3350
+F 0 "R5" V 4468 3350 50  0001 C CNN
+F 1 "16k" V 4559 3350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4605 3350 50  0001 C CNN
+F 3 "~" H 4675 3350 50  0001 C CNN
+	1    4675 3350
+	0    1    1    0   
+$EndComp
+Text GLabel 4375 3350 0    50   UnSpc ~ 0
+L2
+Wire Wire Line
+	4825 3350 5025 3350
+Wire Wire Line
+	5325 3350 5575 3350
+$Comp
+L Device:R R7
+U 1 1 6397F21B
+P 4675 3550
+F 0 "R7" V 4468 3550 50  0001 C CNN
+F 1 "16k" V 4559 3550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4605 3550 50  0001 C CNN
+F 3 "~" H 4675 3550 50  0001 C CNN
+	1    4675 3550
+	0    1    1    0   
+$EndComp
+Text GLabel 4375 3550 0    50   UnSpc ~ 0
+L3
+Wire Wire Line
+	4825 3550 5025 3550
+Wire Wire Line
+	5325 3550 5575 3550
+$Comp
+L Device:R R9
+U 1 1 63980880
+P 4675 3750
+F 0 "R9" V 4468 3750 50  0001 C CNN
+F 1 "16k" V 4559 3750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4605 3750 50  0001 C CNN
+F 3 "~" H 4675 3750 50  0001 C CNN
+	1    4675 3750
+	0    1    1    0   
+$EndComp
+Text GLabel 4375 3750 0    50   UnSpc ~ 0
+L4
+Wire Wire Line
+	4825 3750 5025 3750
+Wire Wire Line
+	5325 3750 5575 3750
+$Comp
+L Device:R R11
+U 1 1 63986536
+P 4675 3950
+F 0 "R11" V 4468 3950 50  0001 C CNN
+F 1 "16k" V 4559 3950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4605 3950 50  0001 C CNN
+F 3 "~" H 4675 3950 50  0001 C CNN
+	1    4675 3950
+	0    1    1    0   
+$EndComp
+Text GLabel 4375 3950 0    50   UnSpc ~ 0
+L5
+Wire Wire Line
+	4825 3950 5025 3950
+Wire Wire Line
+	5325 3950 5575 3950
+$Comp
+L Device:R R13
+U 1 1 6398655B
+P 4675 4150
+F 0 "R13" V 4468 4150 50  0001 C CNN
+F 1 "16k" V 4559 4150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4605 4150 50  0001 C CNN
+F 3 "~" H 4675 4150 50  0001 C CNN
+	1    4675 4150
+	0    1    1    0   
+$EndComp
+Text GLabel 4375 4150 0    50   UnSpc ~ 0
+L6
+Wire Wire Line
+	4825 4150 5025 4150
+Wire Wire Line
+	5325 4150 5575 4150
+$Comp
+L Device:R R15
+U 1 1 63986580
+P 4675 4350
+F 0 "R15" V 4468 4350 50  0001 C CNN
+F 1 "16k" V 4559 4350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4605 4350 50  0001 C CNN
+F 3 "~" H 4675 4350 50  0001 C CNN
+	1    4675 4350
+	0    1    1    0   
+$EndComp
+Text GLabel 4375 4350 0    50   UnSpc ~ 0
+L7
+Wire Wire Line
+	4825 4350 5025 4350
+Wire Wire Line
+	5325 4350 5575 4350
+$Comp
+L Device:R R17
+U 1 1 639865A5
+P 6575 2925
+F 0 "R17" V 6368 2925 50  0001 C CNN
+F 1 "16k" V 6459 2925 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6505 2925 50  0001 C CNN
+F 3 "~" H 6575 2925 50  0001 C CNN
+	1    6575 2925
+	0    1    1    0   
+$EndComp
+Text GLabel 6275 2925 0    50   UnSpc ~ 0
+L8
+Wire Wire Line
+	6725 2925 6925 2925
+Wire Wire Line
+	7225 2925 7475 2925
+$Comp
+L Device:R R19
+U 1 1 6399C534
+P 6575 3150
+F 0 "R19" V 6368 3150 50  0001 C CNN
+F 1 "16k" V 6459 3150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6505 3150 50  0001 C CNN
+F 3 "~" H 6575 3150 50  0001 C CNN
+	1    6575 3150
+	0    1    1    0   
+$EndComp
+Text GLabel 6275 3150 0    50   UnSpc ~ 0
+L9
+Wire Wire Line
+	6725 3150 6925 3150
+Wire Wire Line
+	7225 3150 7475 3150
+$Comp
+L Device:R R21
+U 1 1 639A057B
+P 6575 3350
+F 0 "R21" V 6368 3350 50  0001 C CNN
+F 1 "16k" V 6459 3350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6505 3350 50  0001 C CNN
+F 3 "~" H 6575 3350 50  0001 C CNN
+	1    6575 3350
+	0    1    1    0   
+$EndComp
+Text GLabel 6275 3350 0    50   UnSpc ~ 0
+L10
+Wire Wire Line
+	6725 3350 6925 3350
+Wire Wire Line
+	7225 3350 7475 3350
+$Comp
+L Device:R R23
+U 1 1 639A4A7A
+P 6575 3550
+F 0 "R23" V 6368 3550 50  0001 C CNN
+F 1 "16k" V 6459 3550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6505 3550 50  0001 C CNN
+F 3 "~" H 6575 3550 50  0001 C CNN
+	1    6575 3550
+	0    1    1    0   
+$EndComp
+Text GLabel 6275 3550 0    50   UnSpc ~ 0
+L11
+Wire Wire Line
+	6725 3550 6925 3550
+Wire Wire Line
+	7225 3550 7475 3550
+$Comp
+L Device:R R25
+U 1 1 639AEF75
+P 6575 3750
+F 0 "R25" V 6368 3750 50  0001 C CNN
+F 1 "16k" V 6459 3750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6505 3750 50  0001 C CNN
+F 3 "~" H 6575 3750 50  0001 C CNN
+	1    6575 3750
+	0    1    1    0   
+$EndComp
+Text GLabel 6275 3750 0    50   UnSpc ~ 0
+L12
+Wire Wire Line
+	6725 3750 6925 3750
+Wire Wire Line
+	7225 3750 7475 3750
+$Comp
+L Device:R R27
+U 1 1 639AEF9A
+P 6575 3950
+F 0 "R27" V 6368 3950 50  0001 C CNN
+F 1 "16k" V 6459 3950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6505 3950 50  0001 C CNN
+F 3 "~" H 6575 3950 50  0001 C CNN
+	1    6575 3950
+	0    1    1    0   
+$EndComp
+Text GLabel 6275 3950 0    50   UnSpc ~ 0
+L13
+Wire Wire Line
+	6725 3950 6925 3950
+Wire Wire Line
+	7225 3950 7475 3950
+$Comp
+L Device:R R29
+U 1 1 639AEFBF
+P 6575 4150
+F 0 "R29" V 6368 4150 50  0001 C CNN
+F 1 "16k" V 6459 4150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6505 4150 50  0001 C CNN
+F 3 "~" H 6575 4150 50  0001 C CNN
+	1    6575 4150
+	0    1    1    0   
+$EndComp
+Text GLabel 6275 4150 0    50   UnSpc ~ 0
+L14
+Wire Wire Line
+	6725 4150 6925 4150
+Wire Wire Line
+	7225 4150 7475 4150
+$Comp
+L Device:R R31
+U 1 1 639AEFE4
+P 6575 4350
+F 0 "R31" V 6368 4350 50  0001 C CNN
+F 1 "16k" V 6459 4350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6505 4350 50  0001 C CNN
+F 3 "~" H 6575 4350 50  0001 C CNN
+	1    6575 4350
+	0    1    1    0   
+$EndComp
+Text GLabel 6275 4350 0    50   UnSpc ~ 0
+L15
+Wire Wire Line
+	6725 4350 6925 4350
+Wire Wire Line
+	7225 4350 7475 4350
+$Comp
+L Connector:DB25_Male J2
+U 1 1 639C47BD
+P 8850 3600
+F 0 "J2" H 8825 2225 50  0000 L CNN
+F 1 "DB25" H 9030 3555 50  0001 L CNN
+F 2 "plc88:dsub25_edge" H 8850 3600 50  0001 C CNN
+F 3 " ~" H 8850 3600 50  0001 C CNN
+	1    8850 3600
+	-1   0    0    1   
+$EndComp
+Text GLabel 9150 4600 2    50   UnSpc ~ 0
+VM8_15
+Text GLabel 9150 4400 2    50   UnSpc ~ 0
+VP8_15
+Text GLabel 9150 2800 2    50   UnSpc ~ 0
+L0
+Text GLabel 9150 2900 2    50   UnSpc ~ 0
+L1
+Text GLabel 9150 3000 2    50   UnSpc ~ 0
+L2
+Text GLabel 9150 3100 2    50   UnSpc ~ 0
+L3
+Text GLabel 9150 3200 2    50   UnSpc ~ 0
+L4
+Text GLabel 9150 3300 2    50   UnSpc ~ 0
+L5
+Text GLabel 9150 3400 2    50   UnSpc ~ 0
+L6
+Text GLabel 9150 3500 2    50   UnSpc ~ 0
+L7
+Text GLabel 9150 3600 2    50   UnSpc ~ 0
+L8
+Text GLabel 9150 3700 2    50   UnSpc ~ 0
+L9
+Text GLabel 9150 3800 2    50   UnSpc ~ 0
+L10
+Text GLabel 9150 3900 2    50   UnSpc ~ 0
+L11
+Text GLabel 9150 4000 2    50   UnSpc ~ 0
+L12
+Text GLabel 9150 4100 2    50   UnSpc ~ 0
+L13
+Text GLabel 9150 4200 2    50   UnSpc ~ 0
+L14
+Text GLabel 9150 4300 2    50   UnSpc ~ 0
+L15
+$Comp
+L Device:LED D3
+U 1 1 63C40366
+P 5175 3150
+F 0 "D3" H 5168 2895 50  0001 C CNN
+F 1 "1" H 5168 2986 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 5175 3150 50  0001 C CNN
+F 3 "~" H 5175 3150 50  0001 C CNN
+F 4 "red" H 5175 3150 50  0001 C CNN "color"
+	1    5175 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 63C4949E
+P 5175 3350
+F 0 "D5" H 5168 3095 50  0001 C CNN
+F 1 "2" H 5168 3186 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 5175 3350 50  0001 C CNN
+F 3 "~" H 5175 3350 50  0001 C CNN
+F 4 "red" H 5175 3350 50  0001 C CNN "color"
+	1    5175 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D7
+U 1 1 63C50EDA
+P 5175 3550
+F 0 "D7" H 5168 3295 50  0001 C CNN
+F 1 "3" H 5168 3386 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 5175 3550 50  0001 C CNN
+F 3 "~" H 5175 3550 50  0001 C CNN
+F 4 "red" H 5175 3550 50  0001 C CNN "color"
+	1    5175 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D9
+U 1 1 63C589EE
+P 5175 3750
+F 0 "D9" H 5168 3495 50  0001 C CNN
+F 1 "4" H 5168 3586 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 5175 3750 50  0001 C CNN
+F 3 "~" H 5175 3750 50  0001 C CNN
+F 4 "red" H 5175 3750 50  0001 C CNN "color"
+	1    5175 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D11
+U 1 1 63C60546
+P 5175 3950
+F 0 "D11" H 5168 3695 50  0001 C CNN
+F 1 "5" H 5168 3786 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 5175 3950 50  0001 C CNN
+F 3 "~" H 5175 3950 50  0001 C CNN
+F 4 "red" H 5175 3950 50  0001 C CNN "color"
+	1    5175 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D13
+U 1 1 63C677A0
+P 5175 4150
+F 0 "D13" H 5168 3895 50  0001 C CNN
+F 1 "6" H 5168 3986 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 5175 4150 50  0001 C CNN
+F 3 "~" H 5175 4150 50  0001 C CNN
+F 4 "red" H 5175 4150 50  0001 C CNN "color"
+	1    5175 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D15
+U 1 1 63C6EFB6
+P 5175 4350
+F 0 "D15" H 5168 4095 50  0001 C CNN
+F 1 "7" H 5168 4186 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 5175 4350 50  0001 C CNN
+F 3 "~" H 5175 4350 50  0001 C CNN
+F 4 "red" H 5175 4350 50  0001 C CNN "color"
+	1    5175 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D17
+U 1 1 63C75FEA
+P 7075 2925
+F 0 "D17" H 7068 2670 50  0001 C CNN
+F 1 "8" H 7068 2761 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 7075 2925 50  0001 C CNN
+F 3 "~" H 7075 2925 50  0001 C CNN
+F 4 "red" H 7075 2925 50  0001 C CNN "color"
+	1    7075 2925
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D19
+U 1 1 63C7D788
+P 7075 3150
+F 0 "D19" H 7068 2895 50  0001 C CNN
+F 1 "9" H 7068 2986 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 7075 3150 50  0001 C CNN
+F 3 "~" H 7075 3150 50  0001 C CNN
+F 4 "red" H 7075 3150 50  0001 C CNN "color"
+	1    7075 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D21
+U 1 1 63C84718
+P 7075 3350
+F 0 "D21" H 7068 3095 50  0001 C CNN
+F 1 "10" H 7068 3186 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 7075 3350 50  0001 C CNN
+F 3 "~" H 7075 3350 50  0001 C CNN
+F 4 "red" H 7075 3350 50  0001 C CNN "color"
+	1    7075 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D23
+U 1 1 63C8BC74
+P 7075 3550
+F 0 "D23" H 7068 3295 50  0001 C CNN
+F 1 "11" H 7068 3386 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 7075 3550 50  0001 C CNN
+F 3 "~" H 7075 3550 50  0001 C CNN
+F 4 "red" H 7075 3550 50  0001 C CNN "color"
+	1    7075 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D25
+U 1 1 63C92EDE
+P 7075 3750
+F 0 "D25" H 7068 3495 50  0001 C CNN
+F 1 "12" H 7068 3586 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 7075 3750 50  0001 C CNN
+F 3 "~" H 7075 3750 50  0001 C CNN
+F 4 "red" H 7075 3750 50  0001 C CNN "color"
+	1    7075 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D27
+U 1 1 63C9A50A
+P 7075 3950
+F 0 "D27" H 7068 3695 50  0001 C CNN
+F 1 "13" H 7068 3786 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 7075 3950 50  0001 C CNN
+F 3 "~" H 7075 3950 50  0001 C CNN
+F 4 "red" H 7075 3950 50  0001 C CNN "color"
+	1    7075 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D29
+U 1 1 63CA1656
+P 7075 4150
+F 0 "D29" H 7068 3895 50  0001 C CNN
+F 1 "14" H 7068 3986 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 7075 4150 50  0001 C CNN
+F 3 "~" H 7075 4150 50  0001 C CNN
+F 4 "red" H 7075 4150 50  0001 C CNN "color"
+	1    7075 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D31
+U 1 1 63CA8BCA
+P 7075 4350
+F 0 "D31" H 7068 4095 50  0001 C CNN
+F 1 "15" H 7068 4186 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 7075 4350 50  0001 C CNN
+F 3 "~" H 7075 4350 50  0001 C CNN
+F 4 "red" H 7075 4350 50  0001 C CNN "color"
+	1    7075 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4375 2925 4525 2925
+Wire Wire Line
+	4375 3150 4525 3150
+Wire Wire Line
+	4375 3350 4525 3350
+Wire Wire Line
+	4375 3550 4525 3550
+Wire Wire Line
+	4375 3750 4525 3750
+Wire Wire Line
+	4375 3950 4525 3950
+Wire Wire Line
+	4375 4150 4525 4150
+Wire Wire Line
+	4375 4350 4525 4350
+Wire Wire Line
+	6275 2925 6425 2925
+Wire Wire Line
+	6275 3150 6425 3150
+Wire Wire Line
+	6275 3350 6425 3350
+Wire Wire Line
+	6275 3550 6425 3550
+Wire Wire Line
+	6275 3750 6425 3750
+Wire Wire Line
+	6275 3950 6425 3950
+Wire Wire Line
+	6275 4150 6425 4150
+Wire Wire Line
+	6275 4350 6425 4350
+Wire Wire Line
+	5575 4350 5575 4150
+Connection ~ 5575 3150
+Wire Wire Line
+	5575 3150 5575 2925
+Connection ~ 5575 3350
+Wire Wire Line
+	5575 3350 5575 3150
+Connection ~ 5575 3550
+Wire Wire Line
+	5575 3550 5575 3350
+Connection ~ 5575 3750
+Wire Wire Line
+	5575 3750 5575 3550
+Connection ~ 5575 3950
+Wire Wire Line
+	5575 3950 5575 3750
+Connection ~ 5575 4150
+Wire Wire Line
+	5575 4150 5575 3950
+Wire Wire Line
+	7475 4350 7475 4150
+Connection ~ 7475 3150
+Wire Wire Line
+	7475 3150 7475 2925
+Connection ~ 7475 3350
+Wire Wire Line
+	7475 3350 7475 3150
+Connection ~ 7475 3550
+Wire Wire Line
+	7475 3550 7475 3350
+Connection ~ 7475 3750
+Wire Wire Line
+	7475 3750 7475 3550
+Connection ~ 7475 3950
+Wire Wire Line
+	7475 3950 7475 3750
+Connection ~ 7475 4150
+Wire Wire Line
+	7475 4150 7475 3950
+$Comp
+L Jumper:Jumper_3_Open JP1
+U 1 1 63BB7CDC
+P 5575 2475
+F 0 "JP1" H 5575 2608 50  0000 C CNN
+F 1 "0_7" H 5575 2608 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5575 2475 50  0001 C CNN
+F 3 "~" H 5575 2475 50  0001 C CNN
+	1    5575 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_3_Open JP2
+U 1 1 63BB9DAE
+P 7475 2475
+F 0 "JP2" H 7475 2608 50  0000 C CNN
+F 1 "8_15" H 7475 2608 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7475 2475 50  0001 C CNN
+F 3 "~" H 7475 2475 50  0001 C CNN
+	1    7475 2475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7475 2625 7475 2925
+Connection ~ 7475 2925
+Wire Wire Line
+	5575 2625 5575 2925
+Connection ~ 5575 2925
+Text GLabel 2825 2475 2    50   UnSpc ~ 0
+VM0_7
+Text GLabel 2825 2675 2    50   UnSpc ~ 0
+VP0_7
+Text GLabel 9150 2400 2    50   UnSpc ~ 0
+VM0_7
+Text GLabel 9150 2600 2    50   UnSpc ~ 0
+VP0_7
+Text GLabel 9150 2500 2    50   UnSpc ~ 0
+VM0_7
+Text GLabel 9150 2700 2    50   UnSpc ~ 0
+VP0_7
+Text GLabel 9150 4500 2    50   UnSpc ~ 0
+VP8_15
+Text GLabel 9150 4700 2    50   UnSpc ~ 0
+VM8_15
+Text GLabel 9150 4800 2    50   UnSpc ~ 0
+VM8_15
+Text GLabel 2825 4575 2    50   UnSpc ~ 0
+VM8_15
+Text GLabel 2825 4375 2    50   UnSpc ~ 0
+VP8_15
+Text GLabel 2825 4475 2    50   UnSpc ~ 0
+VP8_15
+Text GLabel 2825 4675 2    50   UnSpc ~ 0
+VM8_15
+Text GLabel 2825 4775 2    50   UnSpc ~ 0
+VM8_15
+Text GLabel 7725 2475 2    50   UnSpc ~ 0
+VM8_15
+Text GLabel 7225 2475 0    50   UnSpc ~ 0
+VP8_15
+Text GLabel 5325 2475 0    50   UnSpc ~ 0
+VP0_7
+Text GLabel 5825 2475 2    50   UnSpc ~ 0
+VM0_7
+Text Notes 5000 2625 0    50   ~ 0
+active low
+Text Notes 5825 2625 0    50   ~ 0
+active high
+Text Notes 7725 2625 0    50   ~ 0
+active high
+Text Notes 6850 2625 0    50   ~ 0
+active low
+$EndSCHEMATC

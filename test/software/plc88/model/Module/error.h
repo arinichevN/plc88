@@ -1,0 +1,12 @@
+#ifndef MODEL_MODULE_ERROR_H
+#define MODEL_MODULE_ERROR_H
+
+typedef enum {
+	MODULE_ERROR_NONE,
+	MODULE_ERROR_READ,
+	MODULE_ERROR_WRITE,
+	MODULE_ERROR_PARAM
+} module_error_t;
+
+
+#endif
