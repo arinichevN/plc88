@@ -11,14 +11,7 @@ static void printAddress(Module *self, HardwareSerial *serial){
 #include "set.c"
 #include "control.c"
 
-int module_begin(Module *self){
-	beginControlFunction(self);
-	beginSetCommand(self);
-	beginGetCommand(self);
-	memset(self->data, 0, sizeof self->data[0] * MODULE_DATA_LENGTH);
-	self->error = MODULE_ERROR_NONE;
-	return 1;
-}
+
 
 int module_checkParam(Module *self){
 	ModuleParam *param = &self->param;
@@ -76,4 +69,12 @@ int module_hasError(Module *self){
 	return 0;
 }
 
-
+int module_begin(Module *self){
+	beginControlFunction(self);
+	beginSetCommand(self);
+	beginGetCommand(self);
+	memset(self->data, 0, sizeof self->data[0] * MODULE_DATA_LENGTH);
+	module_control(self);
+	self->error = MODULE_ERROR_NONE;
+	return 1;
+}

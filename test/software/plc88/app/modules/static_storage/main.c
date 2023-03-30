@@ -12,7 +12,6 @@ static Module module_buf[] = {
 	{{	4,			MODULE_KIND_DO_8}},
 	{{	8,			MODULE_KIND_DI_8}}
 	
-	
 };
 
 #define MODULE_COUNT ARR_LENGTH(module_buf)

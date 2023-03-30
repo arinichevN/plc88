@@ -57,6 +57,10 @@ void app_begin(){
 	}
 	appdefbut_state_t db = appdefbut_read();
 	if(db == DEFAULT_BUTTON_DOWN){
+		delay(270);
+		apperror_on();
+		delay(270);
+		apperror_off();
 		printdln("default button is down");
 	}
 	if(!appready_begin()){
@@ -79,6 +83,7 @@ void app_begin(){
 		apperror_on();
 		return;
 	}
+	delay(1000);
 	appready_on();
 	app_control = app_RUN;
 	printdln("started");
