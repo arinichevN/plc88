@@ -24,61 +24,53 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microc
 	1    2000 3800
 	1    0    0    -1  
 $EndComp
-Text GLabel 8900 2175 0    50   UnSpc ~ 0
+Text GLabel 9925 2125 0    50   UnSpc ~ 0
 GND
-Text GLabel 8900 875  0    50   UnSpc ~ 0
+Text GLabel 9925 825  0    50   UnSpc ~ 0
 GND
-Text GLabel 9600 875  2    50   UnSpc ~ 0
+Text GLabel 10625 825  2    50   UnSpc ~ 0
 GND
-Text GLabel 9600 2175 2    50   UnSpc ~ 0
+Text GLabel 10625 2125 2    50   UnSpc ~ 0
 GND
-Text GLabel 8900 975  0    50   UnSpc ~ 0
-+5V
-Text GLabel 9600 975  2    50   UnSpc ~ 0
-+5V
-Text GLabel 9600 2075 2    50   UnSpc ~ 0
-+5V
-Text GLabel 8900 2075 0    50   UnSpc ~ 0
-+5V
-Text GLabel 8900 1075 0    50   UnSpc ~ 0
+Text GLabel 9925 1025 0    50   UnSpc ~ 0
 A0
-Text GLabel 8900 1175 0    50   UnSpc ~ 0
+Text GLabel 9925 1125 0    50   UnSpc ~ 0
 A1
-Text GLabel 8900 1275 0    50   UnSpc ~ 0
+Text GLabel 9925 1225 0    50   UnSpc ~ 0
 A2
-Text GLabel 8900 1375 0    50   UnSpc ~ 0
+Text GLabel 9925 1325 0    50   UnSpc ~ 0
 A3
-Text GLabel 8900 1475 0    50   UnSpc ~ 0
+Text GLabel 9925 1425 0    50   UnSpc ~ 0
 A4
-Text GLabel 8900 1575 0    50   UnSpc ~ 0
+Text GLabel 9925 1525 0    50   UnSpc ~ 0
 A5
-Text GLabel 8900 1675 0    50   UnSpc ~ 0
+Text GLabel 9925 1625 0    50   UnSpc ~ 0
 A6
-Text GLabel 8900 1775 0    50   UnSpc ~ 0
+Text GLabel 9925 1725 0    50   UnSpc ~ 0
 A7
-Text GLabel 8900 1875 0    50   UnSpc ~ 0
+Text GLabel 9925 1825 0    50   UnSpc ~ 0
 CLK
-Text GLabel 8900 1975 0    50   UnSpc ~ 0
+Text GLabel 9925 1925 0    50   UnSpc ~ 0
 RD
-Text GLabel 9600 1975 2    50   UnSpc ~ 0
+Text GLabel 10625 1925 2    50   UnSpc ~ 0
 WR
-Text GLabel 9600 1075 2    50   UnSpc ~ 0
+Text GLabel 10625 1025 2    50   UnSpc ~ 0
 D0
-Text GLabel 9600 1175 2    50   UnSpc ~ 0
+Text GLabel 10625 1125 2    50   UnSpc ~ 0
 D1
-Text GLabel 9600 1275 2    50   UnSpc ~ 0
+Text GLabel 10625 1225 2    50   UnSpc ~ 0
 D2
-Text GLabel 9600 1375 2    50   UnSpc ~ 0
+Text GLabel 10625 1325 2    50   UnSpc ~ 0
 D3
-Text GLabel 9600 1475 2    50   UnSpc ~ 0
+Text GLabel 10625 1425 2    50   UnSpc ~ 0
 D4
-Text GLabel 9600 1575 2    50   UnSpc ~ 0
+Text GLabel 10625 1525 2    50   UnSpc ~ 0
 D5
-Text GLabel 9600 1675 2    50   UnSpc ~ 0
+Text GLabel 10625 1625 2    50   UnSpc ~ 0
 D6
-Text GLabel 9600 1775 2    50   UnSpc ~ 0
+Text GLabel 10625 1725 2    50   UnSpc ~ 0
 D7
-Text GLabel 9600 1875 2    50   UnSpc ~ 0
+Text GLabel 10625 1825 2    50   UnSpc ~ 0
 CLK
 Text GLabel 3925 2225 0    50   UnSpc ~ 0
 GND
@@ -677,12 +669,12 @@ READY
 $Comp
 L plc88:bus_i J1
 U 1 1 639710BE
-P 9000 775
-F 0 "J1" H 9250 900 50  0000 C CNN
-F 1 "bus" H 9250 809 50  0000 C CNN
-F 2 "plc88:bus_im" H 9100 775 50  0001 C CNN
-F 3 "" H 9100 775 50  0001 C CNN
-	1    9000 775 
+P 10025 725
+F 0 "J1" H 10275 850 50  0000 C CNN
+F 1 "bus" H 10275 759 50  0000 C CNN
+F 2 "plc88:bus_im" H 10125 725 50  0001 C CNN
+F 3 "" H 10125 725 50  0001 C CNN
+	1    10025 725 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -760,11 +752,36 @@ $Comp
 L plc88:dio_channel_i J4
 U 1 1 63A9668C
 P 9900 4825
-F 0 "J4" H 10248 4521 50  0000 L CNN
-F 1 "dio_channel_i" H 10248 4430 50  0000 L CNN
+F 0 "J4" H 9975 4975 50  0000 L CNN
+F 1 "digital_output" H 9825 4875 50  0000 L CNN
 F 2 "plc88:dio_channel_i" H 9900 4825 50  0001 C CNN
 F 3 "" H 9900 4825 50  0001 C CNN
 	1    9900 4825
 	1    0    0    -1  
 $EndComp
+$Comp
+L plc88:power_i J5
+U 1 1 642F1B53
+P 8725 1200
+F 0 "J5" H 8825 1325 50  0000 L CNN
+F 1 "power_+5V" H 8750 1250 50  0000 L CNN
+F 2 "plc88:power_i" H 8725 1200 50  0001 C CNN
+F 3 "" H 8725 1200 50  0001 C CNN
+	1    8725 1200
+	1    0    0    -1  
+$EndComp
+Text GLabel 8625 1400 0    50   UnSpc ~ 0
++5V
+Text GLabel 8625 1500 0    50   UnSpc ~ 0
+GND
+Text GLabel 8625 1300 0    50   UnSpc ~ 0
+VP
+Text GLabel 9925 2025 0    50   UnSpc ~ 0
+VP
+Text GLabel 10625 2025 2    50   UnSpc ~ 0
+VP
+Text GLabel 9925 925  0    50   UnSpc ~ 0
+VP
+Text GLabel 10625 925  2    50   UnSpc ~ 0
+VP
 $EndSCHEMATC

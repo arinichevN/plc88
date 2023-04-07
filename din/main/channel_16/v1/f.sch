@@ -1257,24 +1257,16 @@ Text GLabel 10100 1725 0    50   UnSpc ~ 0
 A7
 Text GLabel 10100 2125 0    50   UnSpc ~ 0
 GND
-Text GLabel 10100 2025 0    50   UnSpc ~ 0
-+5V
 Text GLabel 10100 1825 0    50   UnSpc ~ 0
 CLK
 Text GLabel 10800 1825 2    50   UnSpc ~ 0
 CLK
 Text GLabel 10100 825  0    50   UnSpc ~ 0
 GND
-Text GLabel 10100 925  0    50   UnSpc ~ 0
-+5V
 Text GLabel 10800 2125 2    50   UnSpc ~ 0
 GND
-Text GLabel 10800 2025 2    50   UnSpc ~ 0
-+5V
 Text GLabel 10800 825  2    50   UnSpc ~ 0
 GND
-Text GLabel 10800 925  2    50   UnSpc ~ 0
-+5V
 Text GLabel 6950 5650 2    50   UnSpc ~ 0
 GND8_15
 Text GLabel 10100 1925 0    50   UnSpc ~ 0
@@ -1418,7 +1410,7 @@ U 1 1 63A9E7A6
 P 10200 725
 F 0 "J4" H 10450 850 50  0000 C CNN
 F 1 "bus_i" H 10450 759 50  0000 C CNN
-F 2 "1my_elements:Bus88_2x14" H 10300 725 50  0001 C CNN
+F 2 "plc88:bus_im" H 10300 725 50  0001 C CNN
 F 3 "" H 10300 725 50  0001 C CNN
 	1    10200 725 
 	1    0    0    -1  
@@ -1774,4 +1766,29 @@ Wire Wire Line
 Connection ~ 6200 1125
 Wire Wire Line
 	6200 1125 6600 1125
+$Comp
+L plc88:power_i J6
+U 1 1 6430747B
+P 9350 700
+F 0 "J6" H 9475 825 50  0000 L CNN
+F 1 "power_+5V" H 9325 750 50  0000 L CNN
+F 2 "plc88:power_i" H 9350 700 50  0001 C CNN
+F 3 "" H 9350 700 50  0001 C CNN
+	1    9350 700 
+	1    0    0    -1  
+$EndComp
+Text GLabel 9250 1000 0    50   UnSpc ~ 0
+GND
+Text GLabel 9250 900  0    50   UnSpc ~ 0
++5V
+Text GLabel 9250 800  0    50   UnSpc ~ 0
+VPBUS
+Text GLabel 10100 925  0    50   UnSpc ~ 0
+VPBUS
+Text GLabel 10100 2025 0    50   UnSpc ~ 0
+VPBUS
+Text GLabel 10800 2025 2    50   UnSpc ~ 0
+VPBUS
+Text GLabel 10800 925  2    50   UnSpc ~ 0
+VPBUS
 $EndSCHEMATC

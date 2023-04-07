@@ -663,39 +663,20 @@ Text GLabel 10125 2900 0    50   UnSpc ~ 0
 A7
 Text GLabel 10125 3300 0    50   UnSpc ~ 0
 GND
-Text GLabel 10125 3200 0    50   UnSpc ~ 0
-+5V
 Text GLabel 10125 3000 0    50   UnSpc ~ 0
 CLK
 Text GLabel 10825 3000 2    50   UnSpc ~ 0
 CLK
 Text GLabel 10125 2000 0    50   UnSpc ~ 0
 GND
-Text GLabel 10125 2100 0    50   UnSpc ~ 0
-+5V
 Text GLabel 10825 3300 2    50   UnSpc ~ 0
 GND
-Text GLabel 10825 3200 2    50   UnSpc ~ 0
-+5V
 Text GLabel 10825 2000 2    50   UnSpc ~ 0
 GND
-Text GLabel 10825 2100 2    50   UnSpc ~ 0
-+5V
 Text GLabel 10125 3100 0    50   UnSpc ~ 0
 RD
 Text GLabel 10825 3100 2    50   UnSpc ~ 0
 WR
-$Comp
-L 1my_symbols:Bus88_2x14 J2
-U 1 1 635BEA53
-P 10225 1900
-F 0 "J2" H 10475 2025 50  0000 C CNN
-F 1 "Bus88_2x14" H 10475 1934 50  0000 C CNN
-F 2 "1my_elements:Bus88_2x14" H 10325 1900 50  0001 C CNN
-F 3 "" H 10325 1900 50  0001 C CNN
-	1    10225 1900
-	1    0    0    -1  
-$EndComp
 Text GLabel 8850 1800 0    50   UnSpc ~ 0
 WR
 Text GLabel 8850 1900 0    50   UnSpc ~ 0
@@ -750,8 +731,8 @@ $Comp
 L plc88:wrs_i J19
 U 1 1 63828645
 P 8950 1400
-F 0 "J19" H 9378 896 50  0000 L CNN
-F 1 "wrs_i" H 9378 805 50  0000 L CNN
+F 0 "J19" H 9075 1350 50  0000 L CNN
+F 1 "wrs_i" H 9050 1275 50  0000 L CNN
 F 2 "plc88:wrs_i" H 8960 1310 50  0001 C CNN
 F 3 "" H 8960 1310 50  0001 C CNN
 	1    8950 1400
@@ -965,4 +946,40 @@ Wire Wire Line
 Connection ~ 4300 1925
 Wire Wire Line
 	4300 1925 4700 1925
+$Comp
+L plc88:bus_i J2
+U 1 1 642F51EE
+P 10225 1900
+F 0 "J2" H 10475 2025 50  0000 C CNN
+F 1 "bus_i" H 10475 1934 50  0000 C CNN
+F 2 "plc88:bus_im" H 10325 1900 50  0001 C CNN
+F 3 "" H 10325 1900 50  0001 C CNN
+	1    10225 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L plc88:power_i J4
+U 1 1 642F9125
+P 10375 3800
+F 0 "J4" H 10500 3925 50  0000 L CNN
+F 1 "power_+5V" H 10400 3850 50  0000 L CNN
+F 2 "plc88:power_i" H 10375 3800 50  0001 C CNN
+F 3 "" H 10375 3800 50  0001 C CNN
+	1    10375 3800
+	1    0    0    -1  
+$EndComp
+Text GLabel 10275 4100 0    50   UnSpc ~ 0
+GND
+Text GLabel 10275 4000 0    50   UnSpc ~ 0
++5V
+Text GLabel 10275 3900 0    50   UnSpc ~ 0
+VPBUS
+Text GLabel 10125 3200 0    50   UnSpc ~ 0
+VPBUS
+Text GLabel 10125 2100 0    50   UnSpc ~ 0
+VPBUS
+Text GLabel 10825 2100 2    50   UnSpc ~ 0
+VPBUS
+Text GLabel 10825 3200 2    50   UnSpc ~ 0
+VPBUS
 $EndSCHEMATC

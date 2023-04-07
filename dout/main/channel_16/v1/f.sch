@@ -51,14 +51,6 @@ Text GLabel 10675 2875 2    50   UnSpc ~ 0
 GND
 Text GLabel 10675 1575 2    50   UnSpc ~ 0
 GND
-Text GLabel 9975 1675 0    50   UnSpc ~ 0
-+5V
-Text GLabel 9975 2775 0    50   UnSpc ~ 0
-+5V
-Text GLabel 10675 1675 2    50   UnSpc ~ 0
-+5V
-Text GLabel 10675 2775 2    50   UnSpc ~ 0
-+5V
 Text GLabel 9975 2575 0    50   UnSpc ~ 0
 CLK
 Text GLabel 10675 2575 2    50   UnSpc ~ 0
@@ -714,6 +706,31 @@ F 1 "dio_channel_i" H 5648 830 50  0001 L CNN
 F 2 "plc88:dio_channel_i" H 5300 1225 50  0001 C CNN
 F 3 "" H 5300 1225 50  0001 C CNN
 	1    5300 1225
+	1    0    0    -1  
+$EndComp
+Text GLabel 8700 1925 0    50   UnSpc ~ 0
+GND
+Text GLabel 8700 1825 0    50   UnSpc ~ 0
++5V
+Text GLabel 8700 1725 0    50   UnSpc ~ 0
+VPBUS
+Text GLabel 9975 1675 0    50   UnSpc ~ 0
+VPBUS
+Text GLabel 9975 2775 0    50   UnSpc ~ 0
+VPBUS
+Text GLabel 10675 2775 2    50   UnSpc ~ 0
+VPBUS
+Text GLabel 10675 1675 2    50   UnSpc ~ 0
+VPBUS
+$Comp
+L plc88:power_i J26
+U 1 1 642FE92B
+P 8800 1625
+F 0 "J26" H 8900 1775 50  0000 L CNN
+F 1 "power_+5V" H 8825 1700 50  0000 L CNN
+F 2 "plc88:power_i" H 8800 1625 50  0001 C CNN
+F 3 "" H 8800 1625 50  0001 C CNN
+	1    8800 1625
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -108,9 +108,9 @@ VOUT
 Text GLabel 6825 4100 2    50   UnSpc ~ 0
 GND
 Text Notes 6800 2775 0    50   ~ 0
-5V 5A
+7V 5A
 Text Notes 2925 2775 0    50   ~ 0
-7...20V
+9...20V
 $Comp
 L Device:R_POT RV1
 U 1 1 61EAF070

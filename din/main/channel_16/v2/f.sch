@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "8 channel discrete input main board"
+Title "16 channel discrete input main board"
 Date ""
 Rev ""
 Comp ""
@@ -247,39 +247,20 @@ Text GLabel 9825 2850 0    50   UnSpc ~ 0
 A7
 Text GLabel 9825 3250 0    50   UnSpc ~ 0
 GND
-Text GLabel 9825 3150 0    50   UnSpc ~ 0
-+5V
 Text GLabel 9825 2950 0    50   UnSpc ~ 0
 CLK
 Text GLabel 10525 2950 2    50   UnSpc ~ 0
 CLK
 Text GLabel 9825 1950 0    50   UnSpc ~ 0
 GND
-Text GLabel 9825 2050 0    50   UnSpc ~ 0
-+5V
 Text GLabel 10525 3250 2    50   UnSpc ~ 0
 GND
-Text GLabel 10525 3150 2    50   UnSpc ~ 0
-+5V
 Text GLabel 10525 1950 2    50   UnSpc ~ 0
 GND
-Text GLabel 10525 2050 2    50   UnSpc ~ 0
-+5V
 Text GLabel 9825 3050 0    50   UnSpc ~ 0
 RD
 Text GLabel 10525 3050 2    50   UnSpc ~ 0
 WR
-$Comp
-L 1my_symbols:Bus88_2x14 J12
-U 1 1 635BEA53
-P 9925 1850
-F 0 "J12" H 10175 1975 50  0000 C CNN
-F 1 "Bus88_2x14" H 10175 1884 50  0000 C CNN
-F 2 "1my_elements:Bus88_2x14" H 10025 1850 50  0001 C CNN
-F 3 "" H 10025 1850 50  0001 C CNN
-	1    9925 1850
-	1    0    0    -1  
-$EndComp
 Text GLabel 7875 3950 0    50   UnSpc ~ 0
 WR
 Text GLabel 7875 4050 0    50   UnSpc ~ 0
@@ -814,4 +795,40 @@ F 3 "" H 4525 850 50  0001 C CNN
 	1    4525 850 
 	1    0    0    -1  
 $EndComp
+$Comp
+L plc88:power_i J12
+U 1 1 642F36F8
+P 9250 900
+F 0 "J12" H 9350 1025 50  0000 L CNN
+F 1 "power_+5V" H 9275 950 50  0000 L CNN
+F 2 "plc88:power_i" H 9250 900 50  0001 C CNN
+F 3 "" H 9250 900 50  0001 C CNN
+	1    9250 900 
+	1    0    0    -1  
+$EndComp
+Text GLabel 9150 1200 0    50   UnSpc ~ 0
+GND
+Text GLabel 9150 1100 0    50   UnSpc ~ 0
++5V
+$Comp
+L plc88:bus_i J22
+U 1 1 642F4D8D
+P 9925 1850
+F 0 "J22" H 10175 1975 50  0000 C CNN
+F 1 "bus_i" H 10175 1884 50  0000 C CNN
+F 2 "plc88:bus_im" H 10025 1850 50  0001 C CNN
+F 3 "" H 10025 1850 50  0001 C CNN
+	1    9925 1850
+	1    0    0    -1  
+$EndComp
+Text GLabel 9150 1000 0    50   UnSpc ~ 0
+VPBUS
+Text GLabel 9825 2050 0    50   UnSpc ~ 0
+VPBUS
+Text GLabel 9825 3150 0    50   UnSpc ~ 0
+VPBUS
+Text GLabel 10525 3150 2    50   UnSpc ~ 0
+VPBUS
+Text GLabel 10525 2050 2    50   UnSpc ~ 0
+VPBUS
 $EndSCHEMATC

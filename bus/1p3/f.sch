@@ -22,13 +22,13 @@ GND
 Text GLabel 3850 3000 2    50   UnSpc ~ 0
 GND
 Text GLabel 3850 3100 2    50   UnSpc ~ 0
-+5V
+VP
 Text GLabel 3850 4200 2    50   UnSpc ~ 0
-+5V
+VP
 Text GLabel 3150 4200 0    50   UnSpc ~ 0
-+5V
+VP
 Text GLabel 3150 3100 0    50   UnSpc ~ 0
-+5V
+VP
 Text GLabel 3150 4000 0    50   UnSpc ~ 0
 CLK
 Text GLabel 3850 4000 2    50   UnSpc ~ 0
@@ -78,9 +78,9 @@ GND
 Text GLabel 1325 4075 0    50   UnSpc ~ 0
 GND
 Text GLabel 1325 3625 0    50   UnSpc ~ 0
-+5V
+VP
 Text GLabel 2275 3625 2    50   UnSpc ~ 0
-+5V
+VP
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 6357680A
@@ -289,13 +289,13 @@ GND
 Text GLabel 5075 3000 2    50   UnSpc ~ 0
 GND
 Text GLabel 5075 3100 2    50   UnSpc ~ 0
-+5V
+VP
 Text GLabel 5075 4200 2    50   UnSpc ~ 0
-+5V
+VP
 Text GLabel 4375 4200 0    50   UnSpc ~ 0
-+5V
+VP
 Text GLabel 4375 3100 0    50   UnSpc ~ 0
-+5V
+VP
 Text GLabel 4375 4000 0    50   UnSpc ~ 0
 CLK
 Text GLabel 5075 4000 2    50   UnSpc ~ 0
@@ -356,13 +356,13 @@ GND
 Text GLabel 6275 3000 2    50   UnSpc ~ 0
 GND
 Text GLabel 6275 3100 2    50   UnSpc ~ 0
-+5V
+VP
 Text GLabel 6275 4200 2    50   UnSpc ~ 0
-+5V
+VP
 Text GLabel 5575 4200 0    50   UnSpc ~ 0
-+5V
+VP
 Text GLabel 5575 3100 0    50   UnSpc ~ 0
-+5V
+VP
 Text GLabel 5575 4000 0    50   UnSpc ~ 0
 CLK
 Text GLabel 6275 4000 2    50   UnSpc ~ 0

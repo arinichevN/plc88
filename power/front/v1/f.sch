@@ -87,7 +87,7 @@ L Connector:TestPoint_2Pole TP1
 U 1 1 6398150D
 P 5350 2200
 F 0 "TP1" H 5350 2395 50  0000 C CNN
-F 1 "5V test" H 5350 2304 50  0000 C CNN
+F 1 "output test" H 5350 2304 50  0000 C CNN
 F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 5350 2200 50  0001 C CNN
 F 3 "~" H 5350 2200 50  0001 C CNN
 	1    5350 2200
